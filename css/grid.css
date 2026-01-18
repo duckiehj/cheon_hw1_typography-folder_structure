@@ -1,8 +1,28 @@
-/* ---Mini CSS reset--- */
+/* --- Mini CSS reset/Normalizing CSS --- */
 
 body, p, h1, h2, h3, h4, h5 {
    margin: 0px; 
    padding: 0px;
+}
+
+/* Scles images and videos to size of containter, makes them reponsive */
+
+img, embed, object, video, picture {
+   max-width: 100%;
+}
+
+/* Change the way the box model works */
+
+html {
+   box-sizing: border-box;
+}
+
+*, *::before, *::after {
+   box-sizing: inherit;
+}
+
+a {
+   text-decoration: none;
 }
 
 /* ---Utility Classes--- */
@@ -31,11 +51,12 @@ body, p, h1, h2, h3, h4, h5 {
    margin: 0 auto;
    padding-left: 16px;
    padding-right: 16px;
-}
+ }
 
 .grid-full {
    display: grid;
    grid-template-columns: 412px;
+   background-color: bisque;
 }
 
 /* A keyword indicating that the property contributes nothing to the grid item's placement, indicating auto-placement, an automatic span, or a default span of 1. */
@@ -58,4 +79,3 @@ body, p, h1, h2, h3, h4, h5 {
 .col-end-4	{grid-column-end: 4;}
 .col-end-5	{grid-column-end: 5;}
 .col-end-auto	{grid-column-end: auto;}
-

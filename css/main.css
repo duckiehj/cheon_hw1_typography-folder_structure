@@ -1,7 +1,44 @@
 #mobile-outline {
    outline: 20px solid #333;
-   width: 412px;
+   max-width: 412px;
    margin: 20px auto 20px auto;
    border-radius: 10px;
-   overflow: hidden;
 } 
+
+body {
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 18px;
+   color: #333;
+}
+
+h1 {
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 38px;
+   margin-bottom: 20px;
+   margin-top: 10px;
+   letter-spacing: 9px;
+   text-shadow: 2px 2px 0 rgb(50, 211, 50);
+
+}
+
+p {
+   line-height: 28px;
+   margin-bottom: 20px;
+}
+
+/* adjacent selector */
+
+h1 + p::first-letter {
+   float: left;
+   background-color: black;
+   color: #fff;
+   font-size: 32px;
+   padding: 14px 6px;
+   margin-right: 8px;
+   border-radius: 5px;
+   box-shadow: 3px 3px 0 rgb(50, 211, 50);
+}
+
+/* Added for HW 1 */
+
+
