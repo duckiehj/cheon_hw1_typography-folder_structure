@@ -1,7 +1,7 @@
 # HW 1 - typography & folder structure
 
-This repo contains the submission for MMED-1056 Homework 1 project by Jin Cheon. The project focuses on exploring web typography and JavaScript using the provided copy and images within a CSS Grid layout.
-
+This repo contains the submission for MMED-1056 Homework 1 project by Jin Cheon. 
+The project explores web typography and basic JavaScript setup using the provided text and images within a CSS Grid layout. I organized the project structure, included the required JS file, and applied typographic styling such as font selection, line height, letter spacing, and font weight to enhance the page.
 ## Installation 💻
 No installation required, simply download the zip file from Github link and extract.
 
