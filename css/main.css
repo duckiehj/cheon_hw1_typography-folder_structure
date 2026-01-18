@@ -7,38 +7,40 @@
 
 body {
    font-family: 'Outfit', Helvetica, sans-serif;
-   font-size: 16px;
+   font-size: 17px;
    color: #333;
 }
 
 h1 {
    font-family: 'Outfit', Times, serif;
-   font-size: 38px;
+   font-size: 42px;
    margin-bottom: 20px;
-   margin-top: 10px;
+   margin-top: 30px;
    letter-spacing: 9px;
-   text-shadow: 2px 2px 0 rgb(50, 211, 50);
-
+   color: black;
+   text-shadow: #fa8518 3px 3px 0;
+   box-shadow: 5px 5px 0px #bd2ae6;
 }
+
+/* text-shadow: 2px 2px 0 rgb(50, 211, 50); */
 
 p {
-   line-height: 28px;
-   margin-bottom: 20px;
+   line-height: 26px;
+   margin-bottom: 15px;
 }
+
+.bold {
+   font-weight: 700;
+   font-size: 17px;
+}  
+
 
 /* adjacent selector */
 
-h1 + p::first-letter {
-   float: left;
-   background-color: black;
-   color: #fff;
-   font-size: 32px;
-   padding: 14px 6px;
-   margin-right: 8px;
-   border-radius: 5px;
-   box-shadow: 3px 3px 0 rgb(50, 211, 50);
+p::first-letter {
+   color:  #bd2ae6;
 }
 
-/* Added for HW 1 */
+
 
 
